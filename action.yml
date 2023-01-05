@@ -9,7 +9,7 @@ inputs:
   openwrt_path:
     description: "Choose armvirt64 file path."
     required: false
-    default: "openwrt/bin/targets/*/*/*rootfs.tar.gz"
+    default: "/workdir/openwrt/bin/targets/*/*/*rootfs.tar.gz"
   openwrt_board:
     description: "Choose Amlogic board."
     required: false
